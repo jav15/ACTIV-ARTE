@@ -1,12 +1,27 @@
+.fondotexto{
+  background-color: #0600007a;
+    padding: 3px;
+}
+
 .video1{
   height: 550px;
 }
 .imggirl{
-  height: 300px;
-  width: 350px;
+  height: 300px!important;
+  width: 380px!important;
 }
 .float-right{
   float: right!important;
+}
+.img-nav{
+  height: 30px;
+  width: 30px;
+}
+.service-icon {
+  transition: box-shadow 0.3s ease-in-out;
+}
+.service-icon:hover {
+  box-shadow: 0 2px 25px rgba(0,0,0,0.3);
 }
 @media (max-width: 600px) {
 .video1{
